@@ -1,0 +1,1 @@
+var e=`/links`.replace(/\/$/,``),t=t=>`${e}${t}`;export{t};
