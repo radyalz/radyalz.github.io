@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Radman Alizadeh — Links",
+  "short_name": "Radyalz",
+  "description": "Radman Alizadeh's links: CV, projects, research, creative work, business card and contact.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07050A",
+  "theme_color": "#07050A",
+  "lang": "en",
+  "categories": ["business", "personalization"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
