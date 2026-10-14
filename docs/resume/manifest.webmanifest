@@ -13,7 +13,7 @@
   "dir": "auto",
   "categories": ["productivity", "business"],
   "related_applications": [
-    { "platform": "webapp", "url": "https://radyalz.ir/resume/manifest.webmanifest" }
+    { "platform": "webapp", "url": "https://radyalz.github.io/resume/manifest.webmanifest" }
   ],
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },

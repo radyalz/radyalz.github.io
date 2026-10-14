@@ -13,4 +13,9 @@ rm -f "$OUT/resume/_headers"
 cp "$OUT/links/index.html" "$OUT/index.html"
 cp "$OUT/links/favicon-32.png" "$OUT/favicon.ico"
 touch "$OUT/.nojekyll"
+find "$OUT" -type f \( -name '*.html' -o -name '*.js' -o -name '*.webmanifest' \) -print0 | xargs -0 perl -pi -e '
+  s{https://radyalz\.ir}{https://radyalz.github.io}g;
+  s{(["\x27`])radyalz\.ir/resume}{$1radyalz.github.io/resume}g;
+  s{rel="canonical" href="https://radyalz\.github\.io}{rel="canonical" href="https://radyalz.ir}g;
+'
 echo "built $OUT"
